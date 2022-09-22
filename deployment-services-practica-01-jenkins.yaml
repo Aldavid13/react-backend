@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: practica-02-jenkins
-          image: 'aldavid/practica-demo:tag'
+          image: 'aldavid/react-backend:tag'
           ports:
             - containerPort: 8080
               name: practica-02-port
