@@ -17,7 +17,7 @@ spec:
           image: 'aldavid/react-backend:tag'
           ports:
             - containerPort: 8080
-              name: practica-02-port
+              name: prac-02-port
           imagePullPolicy: Always
           env:
           - name: nombre
